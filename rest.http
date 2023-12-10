@@ -1,8 +1,16 @@
 GET http://localhost:3000/home
-###
-POST http://localhost:3000/auth/login
 
-###
+### LOGIN REQUEST
+POST http://localhost:3000/auth/login
+Content-Type:application/json
+
+{
+    
+    "email":"G.EMAYE089879@ymail.com",
+    "password": "23458"
+}
+
+### SIGNUP REQUEST
 
 POST http://localhost:3000/auth/register
 Content-Type: application/json
@@ -10,13 +18,15 @@ Content-Type: application/json
 
 {
     
-    "email":"G.EMAYE089879@gmail.com",
+    "email":"G.EMAYE089879@ymail.com",
     "password": "23458"
 }
 
-###
+### REFRESH TOKEN REQUEST
 
 POST http://localhost:3000/auth/refresh-token
 
-###
+
+
+### LOGOUT REQUEST
 DELETE http://localhost:3000/auth/logout

@@ -1,4 +1,4 @@
-node_modules
-.env
-init_mongodb.js
-rest.http
+node_modules/
+.env/
+helpers/init_mongodb.js
+rest.http/
