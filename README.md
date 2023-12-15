@@ -13,6 +13,8 @@ This project is a highly secured Authentication and Authorization system.
 
 Usage
 Routes
+
+
 Register
 
     Endpoint: /register
@@ -52,6 +54,7 @@ Dependencies
 License
 
 This project is licensed under the ISC License.
+
 Author
 
     Emaye Andrew
