@@ -1,4 +1,5 @@
 GET http://localhost:3000/home
+Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDI2NTg1MzIsImV4cCI6MTcwMjY1ODU1MiwiYXVkIjoiNjU2OWQwZmI3NGJmOGFkY2JlMjBmZjYxIiwiaXNzIjoibmF0aXZlY29kZXIuY29tIn0.HVGb-IBDO60_p1h8lV6wXwaFwrm4_exikZCJabPRsb8
 
 ### LOGIN REQUEST
 POST http://localhost:3000/auth/login
@@ -18,14 +19,18 @@ Content-Type: application/json
 
 {
     
-    "email":"G.EMAYE089879@ymail.com",
+    "email":"G.EMAYE08987578@ymail.com",
     "password": "23458"
 }
 
 ### REFRESH TOKEN REQUEST
 
 POST http://localhost:3000/auth/refresh-token
+Content-Type: application/json
 
+{
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MDI2NTg1MzIsImV4cCI6MTczNDIxNjEzMiwiYXVkIjoiNjU2OWQwZmI3NGJmOGFkY2JlMjBmZjYxIiwiaXNzIjoibmF0aXZlY29kZXIuY29tIn0.80MxbhPO7hbl0_exCBih2vf9xsvxD23TbQb1PcYNmH4"
+}
 
 
 ### LOGOUT REQUEST
